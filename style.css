@@ -1,0 +1,135 @@
+.blue {
+    color:blue;
+    font-size: 45pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+.black {
+    color:black;
+    font-size: 30pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+.border
+{
+border-style: double;
+border-width: 5px;
+border-radius: 5px;
+padding: 2px 5px 5px;
+margin-top: 100px;
+margin-bottom: 100px;
+margin-right: 100px;
+margin-left: 80px;
+color:purple;
+
+}
+
+
+
+body {
+
+    background-color: lightblue;
+    color: darkblue;
+    border-color: blueviolet;
+    border-width: 5px;
+    outline: solid 10px;
+    border-radius: 5px;
+    padding: 20%;
+    text-align: center;
+    margin:10px;
+
+    
+
+}
+
+
+/* Photo Gallery CSS */
+
+.galleryimage {
+
+    width: 300px;
+}
+.grid-container {
+display: grid;
+grid-template-columns: repeat(12,1fr);
+padding: 25px;
+grid-row-gap: 70px;
+}
+.pubpals {
+grid-column: 1 / span 5;
+}
+.girlygamers {
+grid-column: 1 / span 5;
+}
+.crazyquiz {
+grid-column: 1 / span 5;
+}
+.touringtales {
+grid-column: 1 / span 5;
+}
+/* the photo grid is 12 columns */
+
+/* Empower Stockport Shop CSS */
+
+
+.purple {
+    color: purple;
+    font-size: 60pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.blackshop {
+    color:black;
+    font-size: 40pt;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.button {
+background-color:greenyellow;
+border-style: dotted;
+color: black;
+padding: 15px 32px;
+text-align: center;
+display: inline-block;
+font-size: 45px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+
+
+/* Empower Stockport Navigation Bar CSS */
+#navBar {
+    background-color:darkblue;
+    overflow:hidden;
+    list-style-type: none;
+    padding:0;
+}
+
+li {
+    float:left;
+    border-right: solid;
+    border-color: whitesmoke;
+}
+
+li a {
+    display:block;
+    color:white;
+    text-align:center;
+    padding: 14px;
+    text-decoration:none;
+    font-size: 40px;
+}
+
+li a:hover {
+    background-color: violet;
+    color: white;
+}
+
+.active {
+    background-color:violet
+
+}

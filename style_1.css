@@ -1,0 +1,45 @@
+.blue {
+    color:blue;
+    font-size: 55pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+.black {
+    color:black;
+    font-size: 40pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+.border
+{
+border-style: double;
+border-width: 5px;
+border-radius: 5px;
+padding: 2px 5px 5px;
+margin-top: 100px;
+margin-bottom: 100px;
+margin-right: 100px;
+margin-left: 80px;
+color:purple;
+
+}
+
+
+
+body {
+
+    background-color: white;
+    color: darkblue;
+    border-color: blueviolet;
+    border-width: 5px;
+    outline: solid 10px;
+    border-radius: 5px;
+    padding: 0px 10px 5px;
+    text-align: center;
+    margin:10px;
+
+    
+
+}
