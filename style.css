@@ -1,13 +1,18 @@
+img {
+    max-width: 100%;
+}
+
+
 .blue {
     color:blue;
-    font-size: 45pt;
+    font-size: 24pt;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 
 .black {
     color:black;
-    font-size: 30pt;
+    font-size: 18pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
 }
@@ -17,11 +22,9 @@
 border-style: double;
 border-width: 5px;
 border-radius: 5px;
-padding: 2px 5px 5px;
-margin-top: 100px;
-margin-bottom: 100px;
-margin-right: 100px;
-margin-left: 80px;
+padding: 0% 5% 2%;
+margin-top: 10px;
+margin-bottom: 10px;
 color:purple;
 
 }
@@ -36,38 +39,45 @@ body {
     border-width: 5px;
     outline: solid 10px;
     border-radius: 5px;
-    padding: 20%;
-    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: left;
     margin:10px;
 
     
 
 }
 
+#shoppingcart {
+    float:left;
+    margin-right: 5%;
+}
+
+#contactus {
+    float:right;
+    margin-left: 5%;
+}
 
 /* Photo Gallery CSS */
 
-.galleryimage {
-
-    width: 300px;
-}
 .grid-container {
 display: grid;
-grid-template-columns: repeat(12,1fr);
-padding: 25px;
-grid-row-gap: 70px;
+grid-template-columns: repeat(2,1fr);
+gap: 20px;
 }
 .pubpals {
-grid-column: 1 / span 5;
+grid-column: 1 / span 1;
 }
 .girlygamers {
-grid-column: 1 / span 5;
+grid-column: 2 / span 1;
 }
 .crazyquiz {
-grid-column: 1 / span 5;
+grid-column: 1 / span 1;
 }
 .touringtales {
-grid-column: 1 / span 5;
+grid-column: 2 / span 1;
 }
 /* the photo grid is 12 columns */
 
@@ -76,13 +86,13 @@ grid-column: 1 / span 5;
 
 .purple {
     color: purple;
-    font-size: 60pt;
+    font-size: 32pt;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .blackshop {
     color:black;
-    font-size: 40pt;
+    font-size: 24pt;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -121,7 +131,8 @@ li a {
     text-align:center;
     padding: 14px;
     text-decoration:none;
-    font-size: 40px;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 li a:hover {
